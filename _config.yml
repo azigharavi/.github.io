@@ -1,2 +1,3 @@
 name: Azimeh Gharavi
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
