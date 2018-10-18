@@ -1,7 +1,14 @@
 ---
 layout : default
 title : My CV
+labels:
+  - Education
+  - Publications
+  - Career History
 ---
 <div class="blurb">
 	<h2>{{ page.title }}</h2>
+	<div id="education">
+		<h3>{{page.labels.first}}</h3>
+	</div>
 </div><!-- /.blurb -->
