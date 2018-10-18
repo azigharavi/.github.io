@@ -1,7 +1,19 @@
 ---
 layout: default
 title: Azimeh Gharavi
+emails:
+  - azimeh.gharavi@gmail.com
+  - ag72@hw.ac.uk
 ---
 <div class="blurb">
-	<h1>About Me!</h1>
+  <h2>You can contact me on ...</h2>
+  <ul>
+    <li><h3> Email : <h3>
+      {% for email in layput.emails %}
+	    {{ email }}
+      {% endfor %} 
+    </li>
+    <li><a href="/blog.html">Blog</a></li>
+  </ul>
+	
 </div><!-- /.blurb -->
