@@ -69,28 +69,25 @@ ul.navigation li{
     color: #8a151b;
 }
 
-
-div#home{
+div{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+div#home{
+    flex-direction: column;
 }
 div#home > *{
     margin: 10px 0;
 }
 
 div.column{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 div.row{
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 div.bordered{
