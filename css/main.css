@@ -12,7 +12,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    
+
 }
 a {
     text-decoration: none;
@@ -24,6 +24,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    colour: #8a151b;
 }
 h2 {
     font-size: 2em;
