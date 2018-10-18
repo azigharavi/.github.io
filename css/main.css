@@ -1,3 +1,4 @@
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -11,10 +12,11 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #585340;
 }
 a:hover {
     text-decoration: underline;
@@ -36,14 +38,14 @@ p {
 p#description {
     width: 700px;
     padding: 0 50px 30px;
-    border-bottom: 2px solid #D65076;
+    border-bottom: 2px solid #8a151b;
     color: #333333;
     text-align: justify;
 }
 footer{
     width: 700px;
     margin: 30px auto 15px;
-    border-top: 2px solid #D65076;
+    border-top: 2px solid #8a151b;
     padding-top: 30px;
     font-size: 90%;
     text-align: center;
