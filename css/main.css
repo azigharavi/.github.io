@@ -31,7 +31,7 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 12px;
     line-height: 1.4em;
     color: #333;
     align: justify-content;
@@ -91,4 +91,12 @@ div.row{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+div.bordered{
+    margin: 30px auto 15px;
+    border-top: 2px solid #8a151b;
+    padding-top: 30px;
+    text-align: center;
+    color: #333333;
 }
