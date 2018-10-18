@@ -95,7 +95,7 @@ div.row{
 
 div.bordered{
     margin: 30px auto 15px;
-    border-top: 2px solid #8a151b;
+    border-bottom: 2px solid #8a151b;
     padding-top: 30px;
     text-align: center;
     color: #333333;

@@ -5,12 +5,16 @@ labels:
   - Education
   - Publications
   - Career History
+
 ---
 <div class="blurb">
 	<h2>{{ page.title }}</h2>
 	{% for label in page.labels %}
 		<div class="bordered">
 			<h3>{{label}}</h3>
+			{% if label == Education %}
+
+			{% endif %}
 		</div>
 	{% endfor %}
 
