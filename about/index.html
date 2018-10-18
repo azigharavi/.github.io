@@ -3,16 +3,16 @@ layout: default
 title: Azimeh Gharavi
 contacts:
   - name : email, value : azimeh.gharavi@gmail.com
-  - name : GitHub, value : https://github.com/AzimehGharavi
-  - name : Research Gate, value : https://www.researchgate.net/profile/Azimeh_Gharavi
+  - name : GitHub, value : "https://github.com/AzimehGharavi"
+  - name : Research Gate, value : "https://www.researchgate.net/profile/Azimeh_Gharavi"
 ---
 <div class="blurb">
   <h2>You can contact me on ...</h2>
   <ul>
     
       {% for contact in page.contacts %}
-	  <li>  
-	    {{ contact }}
+	  <li>
+		  <a href={{ contact.value}}>{{ contact.name }}</a>
      	  </li>
       {% endfor %} 
   </ul>
