@@ -33,9 +33,24 @@ p {
     color: #333;
     align: justify-content;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+p#description {
+    width: 700px;
+    padding: 0 50px 30px;
+    border-bottom: 2px solid #D65076;
+    color: #333333;
+    text-align: justify;
+}
+footer{
+    width: 700px;
+    margin: 30px auto 15px;
+    border-top: 2px solid #D65076;
+    padding-top: 30px;
+    font-size: 90%;
+    text-align: center;
+    color: #333333;
+}
+footer > p{
+    margin: 0;
 }
 
 ul.posts { 
