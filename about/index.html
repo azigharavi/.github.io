@@ -1,19 +1,20 @@
 ---
 layout: default
 title: Azimeh Gharavi
-emails:
-  - azimeh.gharavi@gmail.com
-  - ag72@hw.ac.uk
+contacts:
+  - name : email, value : azimeh.gharavi@gmail.com
+  - name : GitHub, value : https://github.com/AzimehGharavi
+  - name : Research Gate, value : https://www.researchgate.net/profile/Azimeh_Gharavi
 ---
 <div class="blurb">
   <h2>You can contact me on ...</h2>
   <ul>
-    <li><h4> Email : <h4>
-      {% for email in page.emails %}
-	    {{ email }}
+    
+      {% for contact in page.contacts %}
+	  <li>  
+	    {{ contact }}
+     	  </li>
       {% endfor %} 
-    </li>
-    <li></li>
   </ul>
 	
 </div><!-- /.blurb -->
