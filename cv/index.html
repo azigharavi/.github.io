@@ -1,21 +1,13 @@
 ---
 layout : default
 title : My CV
-labels:
-  - Education
-  - Publications
-  - Career History
-
 ---
 <div class="blurb">
 	<h2>{{ page.title }}</h2>
-	{% for label in page.labels %}
-		<div class="column bordered">
+	{% for label in site.data.CV %}
+		<div class="bordered">
 			<h3>{{label}}</h3>
-			{% if label == 'Education' %}
-				<h3>Candidate for the degree of Doctor of Philosophy (Ph.D.), Computer Science</h3>
-				<i>Heriot-Watt University, Edinburgh. 2017 - present.</i>
-			{% endif %}
+
 
 		</div>
 	{% endfor %}

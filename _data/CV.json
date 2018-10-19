@@ -1,0 +1,83 @@
+{"Education":[
+	{
+		"title": "Candidate for the degree of Doctor of Philosophy (Ph.D.), Computer Science",
+		"subtitle": "Heriot-Watt University, Edinburgh. 2017 - present.",
+		"description": "My research is focused on making mutilple (valid) solutions of stochastic algorithms transparent for high-stake users, in order to help users to make informed decsions and ultimately incresing user confidence when using stochastic algorithms  "
+
+	},
+	{
+		"title": "Master of Science with Disticntion (M.Sc. Dist.), Data Science",
+		"subtitle" : "Heriot-Watt University, Edinburgh. 2016 - 2017.",
+		"description" : "  "
+	},
+	{
+		"title" : "Bachelor of Science with Honours(B.Sc. Hons.) in Computer Engineering",
+		"subtitle": "Iran University of Science and Technology, Iran. 2004 - 2009.",
+		"description" : ""
+	}
+
+],
+"Publication" : [
+	{
+	"title" : "Issues Affecting User Confidence in Explanation Systems. 2018.",
+	"authors" : "David Robb, Stefano Padilla, Thomas Methven, Yibo Liang, Pierre Le Bras, Tanya Howden, Azimeh Gharavi, Mike Chantler, and Ioannis Chalkiadakis.",
+	"confrence" :  "ReaLX 2018: The SICSA Reasoning, Learning and Explainability Workshop 2018.",
+	"url" : "http://ceur-ws.org/Vol-2151/Paper_S7.pdf",
+	"abstract" : " Recent successes of artificial intelligence, machine learning, and deep learning have generated exciting challenges in the area of explainability. For societal, regulatory, and utility reasons, systems that exploit these technologies are increasingly being required to explain their outputs to users. In addition, appropriate and timely explanation can improve user experience, performance, and confidence. We have found that users are reluctant to use such systems if they lack the understanding and confidence to explain the underlying processes and reasoning behind the results. In this paper, we present a preliminary study by nine experts that identified research issues concerning explanation and user confidence. We used a three-session collaborative process to collect, aggregate, and generate joint reflections from the group. Using this process, we identified six areas of interest that we hope will serve as a catalyst for stimulating discussion."
+	}
+],
+"Careers" : [
+	{
+		"position" : "Senior Infrastructure Technician",
+		"org" : "Newcastle University, Newcastle.",
+		"date" : "2015 - 2016",
+		"responsibilities" : {
+			"description" : "Working  as  part  of  operations  team  to  give  support,  advice  and  assistance  atsecond-line level to colleagues, customers and other stakeholders." ,
+			"tasks" : [
+				"Planning and implementing changes to the University’s data centres to sup-port  evolving  requirements;  ordering,  installation  and  maintaining  the  ITequipment and services.",
+				"Building  and  deploying  of  monitoring  systems  for  data  centres,  For  example, DellOpenManage for monitoring and deploying Dell Servers and storagedevices.",
+				"Building,  deploying  and  ensuring  the  continued  reliable  operation  of  both physical and virtual servers running a variety of operating systems (may in-clude Windows and Linux)."
+
+			]
+		}
+
+
+	},
+	{
+		"position" : "ICT Support Technician",
+		"org" : "Edinburgh College, Edinburgh.",
+		"date" : "2013 - 2014",
+		"responsibilities" : {
+			"description" : "Worked  as  part  of  support  team  to  give  first  and  second  line  support  for  staff, students and external users in Scotland’s biggest college.",
+			"tasks" : []
+		}
+	},
+	{
+		"position" : "ICT Coordinator",
+		"org" : "Newbattle Abbey College, Edinburgh.",
+		"date" : "2012 - 2013",
+		"responsibilities" : {
+			"description" : "The job purpose was playing a lead role in the project to upgrade the college ICT infrastructure and participating in the use of regional shared ICT resources.  Providing technical and operational support in respect of the College computer and telecommunications systems.",
+			"tasks" :[
+				"Configuration and support of virtualized server environment using VMware.",
+				"Configuration, installation & support of Windows 2008 R2 server system soft-ware.  Support and configuration of technical aspects of storage on premisesand in cloud.",
+				"Configuration, installation and support of Microsoft server software and services including Exchange  Server,  DC,  AD,  SQL  Server,  Proxy  Server,  IIS,  DNS,  DHCP,WINS.",
+				"Establishment and maintenance of appropriate technical documentation and troubleshooting procedures and maintaining databases of resolved problems, network and telephone connectivity."
+
+			]
+
+		}
+	},
+	{
+		"position" : "Lab Assistant",
+		"org" : "Heriot-Watt University, Edinburgh.",
+		"date" : "2017 - Present.",
+		"responsibilities" : {
+			"description" : "Alongside my reserach I help lecturesr in their lab sessions for different courses, for example, Java programming, web programming and  data analytic and visualisation. My main responsibilities are answering students' questions and giving them guidance on their projects.",
+			"tasks" : []
+		}
+
+	}
+]
+
+}
